@@ -1,0 +1,27 @@
+{
+  "name": "juriet",
+  "description": "The public REST API for mafia-game",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maknoon/juriet"
+  },
+  "author": "Dewgong Dev",
+  "devDependencies": {
+    "connect-livereload": "~0.4.0",
+    "express": "~3.4.8",
+    "gulp": "~3.5.6",
+    "gulp-util": "~2.2.14",
+    "gulp-clean": "~0.3.0",
+    "gulp-concat": "~2.2.0",
+    "gulp-shell": "~0.2.4",
+    "tiny-lr": "~0.0.5",
+    "gulp-replace":"~0.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "server": "npm install && sbt ~re-start"
+  }
+}
